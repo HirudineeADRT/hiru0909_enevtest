@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru0909_enevtest/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed jj\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -73,7 +73,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568011073770
+    "lastSave": 1568012704879
   },
   "VCS_STATE": {
     "provider": "GitHub",
