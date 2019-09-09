@@ -1,0 +1,85 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "98631da8-d985-4ca9-a473-2c68c7baf00b": {
+        "id": "98631da8-d985-4ca9-a473-2c68c7baf00b",
+        "parent": null,
+        "name": "hiru0909_enevtest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b3c4ebee-ef5e-486b-acbb-b7756f4df8f1"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru0909_enevtest"
+      },
+      "b3c4ebee-ef5e-486b-acbb-b7756f4df8f1": {
+        "id": "b3c4ebee-ef5e-486b-acbb-b7756f4df8f1",
+        "parent": "98631da8-d985-4ca9-a473-2c68c7baf00b",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru0909_enevtest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "98631da8-d985-4ca9-a473-2c68c7baf00b",
+    "openFiles": [
+      "b3c4ebee-ef5e-486b-acbb-b7756f4df8f1"
+    ],
+    "currentFileId": "b3c4ebee-ef5e-486b-acbb-b7756f4df8f1",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "hiru",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru0909_enevtest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568011073770
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0909_enevtest",
+      "url": "https://github.com/HirudineeADRT/hiru0909_enevtest"
+    }
+  }
+}
